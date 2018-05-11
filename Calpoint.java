@@ -1,7 +1,7 @@
 public class Calpoint extends Point {
 
 	@Override
-	float calpoint( float money) {
+	double calpoint( double money) {
 		
 		return money/50;
 	}
